@@ -22,8 +22,8 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="bg p-[5px] md:p-12">
-    <h2>{{doubleValue}}</h2>
+  <div class="bg p-[5px] md:p-12 ">
+    <h2 class="font-32">{{doubleValue}}</h2>
 
     <button  @click="store.increment"  class="w-44 border-2 rounded-md text-lg">click</button>
 

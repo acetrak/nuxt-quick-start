@@ -8,6 +8,15 @@
   </NuxtLayout>
 </template>
 
-<style>
+<style lang="scss">
+@each $size in $fontSizeArr {
+  .font-#{$size} {
+    font-size: $size + px !important;
+  }
+}
+
+button{
+  outline:none;
+}
 
 </style>
