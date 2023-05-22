@@ -1,0 +1,37 @@
+@import "variable";
+
+
+$precision: .02px;
+
+@mixin smDown {
+  @media (max-width: #{$screen-sm - $precision}) {
+    @content;
+  }
+}
+
+@mixin mdDown {
+  @media (max-width: #{$screen-md - $precision}) {
+    @content;
+  }
+}
+
+@mixin lgDown {
+  @media (max-width: #{$screen-lg - $precision}) {
+    @content;
+  }
+}
+
+
+@mixin xlDown {
+  @media (max-width: #{$screen-xl - $precision}) {
+    @content;
+  }
+}
+
+@mixin xxlDown {
+  @media (max-width: #{$screen-xxl - $precision}) {
+    @content;
+  }
+}
+
+

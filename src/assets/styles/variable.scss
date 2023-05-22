@@ -1,0 +1,23 @@
+$fontSizeArr: 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40;
+
+$screen-sm: 576px;
+$screen-md: 768px;
+$screen-lg: 992px;
+$screen-xl: 1200px;
+$screen-xxl: 1400px;
+
+$browser-default-font-size: 16px !default;
+
+@function px2rem($px) {
+  @return calc($px / $browser-default-font-size * 1rem);
+}
+
+$container-max-width: 1024px;
+$container-min-width: 1024px;
+
+$primary-color: #507AFD;
+
+
+
+
+
